@@ -31,6 +31,17 @@ $API_KEY = 'insert_your_api_key_here';
 6. **Click OK – your live stats will now show on your stream**
 7. **Ready**
 
+## 🌐 Interface Language Customization:
+
+If you'd like to adjust the interface language (e.g., English, German), you can modify these lines in the PHP file:
+
+- **Line 131**: Change the input placeholder text  
+  ```php
+  <input type="text" id="videoInput" placeholder="Enter ID or live link">`
+
+- **Line 132**: Change the input placeholder text  
+  ```php
+  <button onclick="setVideoId()">Show statistics</button>
 
 # PL
 > Statystyki Live dla OBS Studio 
@@ -65,3 +76,15 @@ $API_KEY = 'twój klucz api';
 6. **Zatwierdź i gotowe – statystyki będą widoczne na streamie**
 7. **Gotowe**
 
+### 🌐 Personalizacja języka interfejsu:
+
+Jeśli chcesz dostosować teksty w interfejsie do swojego języka (np. angielski, niemiecki), możesz edytować linie w pliku PHP:
+
+- **Linia 131**: Zmień placeholder w polu tekstowym 
+  ```php
+  <input type="text" id="videoInput" placeholder="Enter ID or live link">`
+
+- **Linia 132**: Zmień placeholder w polu tekstowym 
+  ```php
+  <button onclick="setVideoId()">Show statistics</button>
+  
