@@ -20,7 +20,16 @@ $API_KEY = 'insert_your_api_key_here';
 4. **Upload the index.php and config.php files to a hosting that supports php**
 5. **Final effect**   
 ![preview](https://i.imgur.com/X2cVxVT.png)
-6. **Ready**
+
+### How to add it to OBS Studio:
+1. **Open OBS Studio**
+2. **Click the + icon in the “Sources” section**
+3. **Select “Browser”**
+4. **Paste the full URL to the file, e.g., http://localhost/index.php?videoId=36YnV9STBqc&color=white
+(or your hosted version's URL)**
+5. **Set width and height (e.g., 800x200)**
+6. **Click OK – your live stats will now show on your stream**
+7. **Ready**
 
 
 # PL
@@ -45,5 +54,14 @@ $API_KEY = 'twój klucz api';
 4. **Wgraj pliki index.php i config.php na hosting który obsuguje php**
 5. **Efekt końcowy**
 ![preview](https://i.imgur.com/fLapP2Q.png)
-6. **Gotowe**
+
+### Jak dodać do OBS Studio
+1. **Otwórz OBS Studio**
+2. **Kliknij + w sekcji „Źródła” (Sources)**
+3. **Wybierz „Przeglądarka” (Browser)**
+4. **Wklej pełny adres URL do pliku np. http://localhost/index.php?videoId=36YnV9STBqc&color=white
+(lub adres z serwera, na którym hostujesz plik)**
+5. **Ustaw szerokość i wysokość (np. 800x200)**
+6. **Zatwierdź i gotowe – statystyki będą widoczne na streamie**
+7. **Gotowe**
 
